@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(27, 23, 23);
+    color: beige;
+    margin: auto;
+    display: flex;
+    padding: 48px;
+}
+img{
+    height: 100%;
+    width: 150%;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 6rem;
+}
+.section-1{
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+    z-index: 100;
+}
+.section-1 p{
+    line-height: 0.0001rem;
+    margin: 5px 10px 20px 20px;
+    margin-bottom:10px;
+    color: rgb(230, 230, 225);
+    text-align: center;
+}
+.section-1 h1{
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-1 .card{
+    background-color: rgb(155, 145, 136);
+    padding: 4px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 140%;
+    border-radius: 3rem;
+    margin-top: 150px;
+}
+
+.section-1 .card p{
+    padding: 10px;
+    margin: 10px;
+    border-left: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: black;
+}
+.section-1 .card button{
+    background-color: rgb(214, 35, 35);
+    color:bisque;
+    border: none;
+    padding:4px;
+    margin: 7px;
+    border-radius: 3em;
+    width: 20%;
+    font-size:10px larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-style:normal;
+}
+
+
+@media screen and (max-width:400px){
+    body{
+        height: 400px;
+        text-align:left;
+        padding:0px;
+        margin:0px;
+    }
+    img{
+        width:200%;
+        height:110%;
+        margin:0px;
+    }
+    .section-1{
+        padding:10px;
+        margin:5px;
+    }
+    .section-1 h1{
+        padding:20px;
+        margin:0px;
+        text-align:left;
+    }
+    .section-1 p{
+        line-height:1;
+    }
+    .section-1 .card{
+        padding:0px;
+        margin:0px;
+        width:230%;
+        height:14%;
+    }
+    .section-1 .card button{
+        padding:0px;
+        margin:5px;
+        width:20%;
+        height:90%;
+    }
+}
